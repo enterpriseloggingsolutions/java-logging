@@ -1,4 +1,4 @@
-import { PrintStream } from "./PrintStream";
+import { PrintStream } from './PrintStream';
 
 export class Out implements PrintStream {
 

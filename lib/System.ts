@@ -4,6 +4,7 @@ import { Out } from './Out';
 export class SystemStatic {
   
   public out: Out;
+  
   public err: Err;
 
   constructor() {
