@@ -7,8 +7,13 @@ We all know that Javascript is an insecure mess. The root of most of your applic
 ## Usage
 
 ```ts
+/* This is a fully working example */
 import { System } from 'java-logging'
 
-System.out.println("very important business grade log") /* so much more maintinable */
-System.out.print("enterprise grade logging") /* far more clean */
+System.out.println("sup") /* so much more maintinable */
+System.out.print("hello") /* far more clean */
+
+System.err.println('test');
+System.err.print('test');
+
 ```
