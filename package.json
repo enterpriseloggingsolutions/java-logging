@@ -1,0 +1,26 @@
+{
+  "name": "java-logging",
+  "version": "1.0.0",
+  "description": "An enterprise grade logging solution",
+  "main": "lib/index.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lint": "node_modules/.bin/eslint . --ext .ts",
+    "prebuild": "npm run lint",
+    "build": "tsc"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^18.0.4",
+    "@typescript-eslint/eslint-plugin": "^5.30.6",
+    "@typescript-eslint/parser": "^5.30.6",
+    "eslint": "^8.19.0"
+  },
+  "dependencies": {
+    "eslint-config-airbnb-typescript": "^17.0.0"
+  },
+  "files": [
+    "/dist"
+  ]
+}
