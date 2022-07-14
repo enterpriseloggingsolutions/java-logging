@@ -2,7 +2,7 @@ import { PrintStream } from './PrintStream';
 
 export class Out implements PrintStream {
 
-  public print(txt: string) {
+  public print(txt) {
     process.stdout.write(txt);
   }
 
