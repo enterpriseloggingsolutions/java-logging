@@ -12,7 +12,7 @@ import { System } from 'java-logging'
 System.out.println("very important business grade log") /* so much more maintinable */
 System.out.print("enterprise grade logging") /* far more clean */
 
-System.err.println('An error message'); /* far more portable than existing loggers */
-System.err.print('Another error message'); /* incredibly scalable */
+System.err.println('NullPointerException on line: 34623132'); /* far more portable than existing loggers */
+System.err.print('Perhaps a cute little bug found its way into your server'); /* incredibly scalable */
 
 ```
