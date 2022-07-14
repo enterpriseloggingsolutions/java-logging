@@ -1,4 +1,6 @@
-export class Out {
+import { PrintStream } from "./PrintStream";
+
+export class Out implements PrintStream {
 
   public print(txt: string) {
     process.stdout.write(txt);

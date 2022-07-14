@@ -1,6 +1,8 @@
-export class Err {
+import { PrintStream } from "./PrintStream";
 
-  public print(txt: string) {
+export class Err implements PrintStream {
+
+  public print(txt) {
     process.stderr.write(txt);
   }
 

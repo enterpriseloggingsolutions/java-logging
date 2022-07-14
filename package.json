@@ -9,7 +9,7 @@
   },
   "scripts": {
     "test": "jest --verbose",
-    "lint": "node_modules/.bin/eslint . --ext .ts",
+    "lint": "node_modules/.bin/eslint lib/ --ext .ts",
     "prebuild": "npm run lint",
     "build": "tsc"
   },
