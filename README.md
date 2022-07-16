@@ -1,4 +1,4 @@
-# Java Logging
+# Java Logging for Javascript
 
 Need a highly maintainable, scalable, general purpose, robust, secure, portable, highly performant, dynamic, simple logger? Look no further.  
 
